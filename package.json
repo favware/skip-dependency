@@ -2,7 +2,7 @@
   "name": "@favware/skip-dependency",
   "description": "Skip pesky dependencies with ease",
   "author": "@favware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://favware.tech",
@@ -12,7 +12,6 @@
   "engines": {
     "node": ">=10",
     "npm": ">=50",
-    "pnpm": ">=50",
     "yarn": "^1"
   },
   "repository": {
