@@ -10,7 +10,7 @@ Just add the following to your `package.json`:
 ```json
 {
   "resolutions": {
-    "package-you-really-want-to-skip": "https://registry.npmjs.org/skip-dependency/-/skip-dependency-1.0.0.tgz"
+    "package-you-really-want-to-skip": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.0.2.tgz"
   }
 }
 ```
