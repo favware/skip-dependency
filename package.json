@@ -1,0 +1,33 @@
+{
+  "name": "@favware/skip-dependency",
+  "description": "Skip pesky dependencies with ease",
+  "author": "@favware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://favware.tech",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=50",
+    "pnpm": ">=50",
+    "yarn": "^1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favware/skip-dependency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/favware/skip-dependency/issues"
+  },
+  "keywords": [
+    "favware",
+    "node",
+    "yarn"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
