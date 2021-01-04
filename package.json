@@ -6,6 +6,10 @@
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://favware.tech",
+  "exports": {
+    "require": "./src/index.js",
+    "import": "./src/index.mjs"
+  },
   "files": [
     "src"
   ],
