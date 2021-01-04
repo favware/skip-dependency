@@ -7,11 +7,11 @@
   "license": "MIT",
   "homepage": "https://favware.tech",
   "files": [
-    "index.js"
+    "src"
   ],
   "engines": {
     "node": ">=10",
-    "npm": ">=50",
+    "npm": ">=6",
     "yarn": "^1"
   },
   "repository": {
