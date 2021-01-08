@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/favware/skip-dependency/compare/v1.1.0...v1.1.1) (2021-01-08)
+
+
+### Bug Fixes
+
+* do not return, just use empty JS files ([7c007ad](https://github.com/favware/skip-dependency/commit/7c007ad1548bf0a5280135a744ee6b8996628ba5))
+* move index files out of src and specify more exports ([bfbaad4](https://github.com/favware/skip-dependency/commit/bfbaad47be0520bc05c068ebc0209721aa5a13c5))
+
 ## 1.1.0 (2021-01-04)
 
 

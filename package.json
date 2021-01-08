@@ -2,7 +2,7 @@
   "name": "@favware/skip-dependency",
   "description": "Skip pesky dependencies with ease",
   "author": "@favware",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "module": "index.mjs",
   "license": "MIT",
