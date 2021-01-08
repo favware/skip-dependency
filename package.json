@@ -4,14 +4,18 @@
   "author": "@favware",
   "version": "1.1.0",
   "main": "index.js",
+  "module": "index.mjs",
   "license": "MIT",
   "homepage": "https://github.com/favware/skip-dependency#readme",
   "exports": {
-    "require": "./src/index.js",
-    "import": "./src/index.mjs"
+    "require": "./index.js",
+    "default": "./index.js",
+    "node": "./index.js",
+    "import": "./index.mjs"
   },
   "files": [
-    "src"
+    "index.js",
+    "index.mjs"
   ],
   "engines": {
     "node": ">=10",
