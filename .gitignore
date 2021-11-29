@@ -1,2 +1,6 @@
 package-lock.json
 node_modules
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
