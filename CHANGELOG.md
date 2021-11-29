@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/favware/skip-dependency/compare/v1.1.2...v1.1.3) (2021-11-29)
+
+
+### Bug Fixes
+
+* allow full Node 14 versions ([fa2ca04](https://github.com/favware/skip-dependency/commit/fa2ca0424f4d1c1f659b1482e337d21d60b8f488))
+
 ### [1.1.2](https://github.com/favware/skip-dependency/compare/v1.1.1...v1.1.2) (2021-11-29)
 
 
