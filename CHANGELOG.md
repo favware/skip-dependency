@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/favware/skip-dependency/compare/v1.1.1...v1.1.2) (2021-11-29)
+
+
+### Bug Fixes
+
+* **readme:** update url and supported toolchains ([6e418c7](https://github.com/favware/skip-dependency/commit/6e418c7936aef9b18368eee7a692a8b10e9d189a))
+
 ### [1.1.1](https://github.com/favware/skip-dependency/compare/v1.1.0...v1.1.1) (2021-01-08)
 
 
