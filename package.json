@@ -38,5 +38,9 @@
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
     "@favware/cliff-jumper": "^1.4.0"
+  },
+  "scripts": {
+    "bump": "cliff-jumper",
+		"check-update": "cliff-jumper --dry-run"
   }
 }
