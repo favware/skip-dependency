@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.2.0](https://github.com/favware/skip-dependency/compare/v1.1.3...v1.2.0) - (2022-05-04)
+
+## Bug Fixes
+
+- Allow any engine (#10) ([5ad6a00](https://github.com/favware/skip-dependency/commit/5ad6a006b9771d61e4e7940c5d6e50b8ebc48376))
+
+## Documentation
+
+- Update version in README ([43b6086](https://github.com/favware/skip-dependency/commit/43b6086c941c5038b757067c5cab2c64bc49f39d))
+
+## Features
+
+- Add type defs file ([deeb246](https://github.com/favware/skip-dependency/commit/deeb2465f7b14ae042fed562390c704545b1b65a))
+
 ### [1.1.3](https://github.com/favware/skip-dependency/compare/v1.1.2...v1.1.3) (2021-11-29)
 
 
