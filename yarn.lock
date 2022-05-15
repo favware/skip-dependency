@@ -32,9 +32,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@favware/cliff-jumper@npm:^1.7.0":
-  version: 1.7.0
-  resolution: "@favware/cliff-jumper@npm:1.7.0"
+"@favware/cliff-jumper@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "@favware/cliff-jumper@npm:1.8.0"
   dependencies:
     "@sapphire/result": ^1.1.1
     "@sapphire/utilities": ^3.6.2
@@ -47,7 +47,7 @@ __metadata:
   bin:
     cj: ./dist/cli.js
     cliff-jumper: ./dist/cli.js
-  checksum: eccbb60187f65f4bf32793b7c20fa3e6bca8936cd3c48c44a1e024791fb99364f98724314bcd6848ba8bf864c7e24e8de543c3c38ea28c899674bcc4b10078d5
+  checksum: 38b3e17d72cd1fad1e9470b07da170b1cbba712dc73fa1ecd8cebc4eb0194903cac4de55f0c23cf3afa34375b565c0cd0559dc83c285d4e7d05f74e054b8d88d
   languageName: node
   linkType: hard
 
@@ -55,7 +55,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@favware/skip-dependency@workspace:."
   dependencies:
-    "@favware/cliff-jumper": ^1.7.0
+    "@favware/cliff-jumper": ^1.8.0
   languageName: unknown
   linkType: soft
 
@@ -941,7 +941,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
