@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@favware/skip-dependency@1.2.1](https://github.com/favware/skip-dependency/compare/v1.2.0...@favware/skip-dependency@1.2.1) - (2022-08-30)
+
+## 🐛 Bug Fixes
+
+- Add default exports to all index files ([2e89791](https://github.com/favware/skip-dependency/commit/2e89791b560b38c75cc680a77f33b2a69a706469))
+
+## 📝 Documentation
+
+- **readme:** Update url ([5380c3a](https://github.com/favware/skip-dependency/commit/5380c3a02459c0530801b5ffafc6cb9c9cf08af8))
+
 # [1.2.0](https://github.com/favware/skip-dependency/compare/v1.1.3...v1.2.0) - (2022-05-04)
 
 ## Bug Fixes
