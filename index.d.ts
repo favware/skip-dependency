@@ -1,1 +1,3 @@
-declare module '@favware/skip-dependency' {}
+declare module '@favware/skip-dependency' {
+    export default {}
+}
