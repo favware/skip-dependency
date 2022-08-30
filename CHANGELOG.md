@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-# [@favware/skip-dependency@1.2.1](https://github.com/favware/skip-dependency/compare/v1.2.0...@favware/skip-dependency@1.2.1) - (2022-08-30)
+# [1.2.1](https://github.com/favware/skip-dependency/compare/v1.2.0...@1.2.1) - (2022-08-30)
 
 ## 🐛 Bug Fixes
 
