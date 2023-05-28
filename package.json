@@ -37,7 +37,7 @@
   },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
-    "@favware/cliff-jumper": "^2.0.0"
+    "@favware/cliff-jumper": "^2.0.1"
   },
   "scripts": {
     "bump": "cliff-jumper",
