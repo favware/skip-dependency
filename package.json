@@ -35,7 +35,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "devDependencies": {
     "@favware/cliff-jumper": "^2.0.1"
   },
