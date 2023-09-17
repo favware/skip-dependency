@@ -5,23 +5,23 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@favware/cliff-jumper@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "@favware/cliff-jumper@npm:2.1.2"
+"@favware/cliff-jumper@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@favware/cliff-jumper@npm:2.1.3"
   dependencies:
     "@sapphire/result": ^2.6.4
     "@sapphire/utilities": 3.13.0
     colorette: ^2.0.20
     commander: ^11.0.0
     compare-func: ^2.0.0
-    conventional-recommended-bump: ^8.0.0
-    git-cliff: ~1.2.0
+    conventional-recommended-bump: ^9.0.0
+    git-cliff: ~1.3.0
     js-yaml: ^4.1.0
     semver: ^7.5.4
   bin:
     cj: ./dist/cli.js
     cliff-jumper: ./dist/cli.js
-  checksum: 17921347e14067460b135e5ef6c8fc093d0aae878668436a8475745391c8c2c94280ead7433b10c7b8f75797e9f4d078363a0c5e5e3615ec8773cd6ab503a0c7
+  checksum: 84126cbac935e4c38ba74453e4f086995ad1a9b03b723c52d0e86f1489fb173ff999d28425aa18aac6359822a7bd66b23c236039b20bb312cf5d9c5a764762e1
   languageName: node
   linkType: hard
 
@@ -29,7 +29,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@favware/skip-dependency@workspace:."
   dependencies:
-    "@favware/cliff-jumper": ^2.1.2
+    "@favware/cliff-jumper": ^2.1.3
   languageName: unknown
   linkType: soft
 
@@ -73,13 +73,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer-from@npm:^1.0.0":
-  version: 1.1.2
-  resolution: "buffer-from@npm:1.1.2"
-  checksum: 0448524a562b37d4d7ed9efd91685a5b77a50672c556ea254ac9a6d30e3403a517d8981f10e565db24e8339413b43c97ca2951f10e399c6125a0d8911f5679bb
-  languageName: node
-  linkType: hard
-
 "colorette@npm:^2.0.20":
   version: 2.0.20
   resolution: "colorette@npm:2.0.20"
@@ -104,22 +97,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concat-stream@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "concat-stream@npm:2.0.0"
-  dependencies:
-    buffer-from: ^1.0.0
-    inherits: ^2.0.3
-    readable-stream: ^3.0.2
-    typedarray: ^0.0.6
-  checksum: d7f75d48f0ecd356c1545d87e22f57b488172811b1181d96021c7c4b14ab8855f5313280263dca44bb06e5222f274d047da3e290a38841ef87b59719bde967c7
-  languageName: node
-  linkType: hard
-
-"conventional-changelog-preset-loader@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "conventional-changelog-preset-loader@npm:4.0.0"
-  checksum: 1f8859c0b8ccac8858af2913f4dd7c9b8412af98648a0de61b4449d4a331075b892653c649aa0ed82d2d72b6731c882b5627bd423525349bdff645c04b15d5f6
+"conventional-changelog-preset-loader@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "conventional-changelog-preset-loader@npm:4.1.0"
+  checksum: 8813c34884a9e3f4be9f3a9ffa216012ee40ef8c0eb1593a70fa8ab906e08de09cab9e0b769b187a43456dbcb24b01a517b3798ebc5b8b9264af2e32c976d9c9
   languageName: node
   linkType: hard
 
@@ -144,20 +125,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-recommended-bump@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "conventional-recommended-bump@npm:8.0.0"
+"conventional-recommended-bump@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "conventional-recommended-bump@npm:9.0.0"
   dependencies:
-    concat-stream: ^2.0.0
-    conventional-changelog-preset-loader: ^4.0.0
+    conventional-changelog-preset-loader: ^4.1.0
     conventional-commits-filter: ^4.0.0
     conventional-commits-parser: ^5.0.0
     git-raw-commits: ^4.0.0
-    git-semver-tags: ^6.0.0
+    git-semver-tags: ^7.0.0
     meow: ^12.0.1
   bin:
     conventional-recommended-bump: cli.mjs
-  checksum: bc53495dc6aa9f5e93755a478857550ce8710eede11bffb03371e0b7baa392b0ec6a64927efeb9b0df30e2ede3af56c929a4bfb22191c7cc14e61f5306a97c63
+  checksum: 0842628777609ef17f1b4f6bb11edbbc243bcc72ae5265e92eb24cac4206e5eadbea48f4a2b0732fbf9c3cea7d1369a08f93fd9ec9755fbf54e6dddb2b88e757
   languageName: node
   linkType: hard
 
@@ -177,58 +157,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-cliff-darwin-arm64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-darwin-arm64@npm:1.2.0"
+"git-cliff-darwin-arm64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-darwin-arm64@npm:1.3.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"git-cliff-darwin-x64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-darwin-x64@npm:1.2.0"
+"git-cliff-darwin-x64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-darwin-x64@npm:1.3.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"git-cliff-linux-arm64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-linux-arm64@npm:1.2.0"
+"git-cliff-linux-arm64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-linux-arm64@npm:1.3.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"git-cliff-linux-x64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-linux-x64@npm:1.2.0"
+"git-cliff-linux-x64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-linux-x64@npm:1.3.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"git-cliff-windows-arm64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-windows-arm64@npm:1.2.0"
+"git-cliff-windows-arm64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-windows-arm64@npm:1.3.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"git-cliff-windows-x64@npm:1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff-windows-x64@npm:1.2.0"
+"git-cliff-windows-x64@npm:1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff-windows-x64@npm:1.3.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"git-cliff@npm:~1.2.0":
-  version: 1.2.0
-  resolution: "git-cliff@npm:1.2.0"
+"git-cliff@npm:~1.3.0":
+  version: 1.3.0
+  resolution: "git-cliff@npm:1.3.0"
   dependencies:
-    git-cliff-darwin-arm64: 1.2.0
-    git-cliff-darwin-x64: 1.2.0
-    git-cliff-linux-arm64: 1.2.0
-    git-cliff-linux-x64: 1.2.0
-    git-cliff-windows-arm64: 1.2.0
-    git-cliff-windows-x64: 1.2.0
+    git-cliff-darwin-arm64: 1.3.0
+    git-cliff-darwin-x64: 1.3.0
+    git-cliff-linux-arm64: 1.3.0
+    git-cliff-linux-x64: 1.3.0
+    git-cliff-windows-arm64: 1.3.0
+    git-cliff-windows-x64: 1.3.0
   dependenciesMeta:
     git-cliff-darwin-arm64:
       optional: true
@@ -244,7 +224,7 @@ __metadata:
       optional: true
   bin:
     git-cliff: lib/index.js
-  checksum: f9081a5fd13db895e95f5c72194a3a9d4dfdfddbae748384b5f15d97dd65f5002a4318f0491c9fda0e9b45f6ddeb634b98ff4751e51123946754642545248474
+  checksum: 35f93d7b8082705f964f44045eda2390216c07bea642ff88da7c296a3ff5a7b028dc078035b6089278725e21d5772660bc9ef4fcbdbbe25938412feb78ed8bee
   languageName: node
   linkType: hard
 
@@ -261,22 +241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-semver-tags@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "git-semver-tags@npm:6.0.0"
+"git-semver-tags@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "git-semver-tags@npm:7.0.1"
   dependencies:
     meow: ^12.0.1
     semver: ^7.5.2
   bin:
     git-semver-tags: cli.mjs
-  checksum: 9e95149630c65ae6195ef40d9faeb9b4fc8b8fcf67c92fa6d31333388a0636a9fadc1a63489c1353eb52caa64b26728075cd488be81d7edd6ce19312cc51a42d
-  languageName: node
-  linkType: hard
-
-"inherits@npm:^2.0.3":
-  version: 2.0.4
-  resolution: "inherits@npm:2.0.4"
-  checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
+  checksum: 07b8a352bd28ad7678a2e12c91b11b5e53aff017420497bbb1cba0645e609f58d0a7d02d5f2ea6c7cd3019d7631ce7737f64cc90c47d944753c6bd2a36c03211
   languageName: node
   linkType: hard
 
@@ -330,24 +303,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^3.0.2":
-  version: 3.6.0
-  resolution: "readable-stream@npm:3.6.0"
-  dependencies:
-    inherits: ^2.0.3
-    string_decoder: ^1.1.1
-    util-deprecate: ^1.0.1
-  checksum: d4ea81502d3799439bb955a3a5d1d808592cf3133350ed352aeaa499647858b27b1c4013984900238b0873ec8d0d8defce72469fb7a83e61d53f5ad61cb80dc8
-  languageName: node
-  linkType: hard
-
-"safe-buffer@npm:~5.2.0":
-  version: 5.2.1
-  resolution: "safe-buffer@npm:5.2.1"
-  checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
-  languageName: node
-  linkType: hard
-
 "semver@npm:^7.5.2, semver@npm:^7.5.4":
   version: 7.5.4
   resolution: "semver@npm:7.5.4"
@@ -366,15 +321,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string_decoder@npm:^1.1.1":
-  version: 1.3.0
-  resolution: "string_decoder@npm:1.3.0"
-  dependencies:
-    safe-buffer: ~5.2.0
-  checksum: 8417646695a66e73aefc4420eb3b84cc9ffd89572861fe004e6aeb13c7bc00e2f616247505d2dbbef24247c372f70268f594af7126f43548565c68c117bdeb56
-  languageName: node
-  linkType: hard
-
 "text-extensions@npm:^2.0.0":
   version: 2.4.0
   resolution: "text-extensions@npm:2.4.0"
@@ -386,20 +332,6 @@ __metadata:
   version: 2.3.8
   resolution: "through@npm:2.3.8"
   checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
-  languageName: node
-  linkType: hard
-
-"typedarray@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "typedarray@npm:0.0.6"
-  checksum: 33b39f3d0e8463985eeaeeacc3cb2e28bc3dfaf2a5ed219628c0b629d5d7b810b0eb2165f9f607c34871d5daa92ba1dc69f49051cf7d578b4cbd26c340b9d1b1
-  languageName: node
-  linkType: hard
-
-"util-deprecate@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "util-deprecate@npm:1.0.2"
-  checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
 
