@@ -12,7 +12,7 @@ Just add the following to your `package.json`:
 ```json
 {
   "resolutions": {
-    "package-you-really-want-to-skip": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.2.1.tgz"
+    "package-you-really-want-to-skip": "npm:@favware/skip-dependency@latest"
   }
 }
 ```
