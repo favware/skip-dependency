@@ -20,7 +20,6 @@ jobs:
         with:
           node-version: 20
           cache: yarn
-          registry-url: https://registry.yarnpkg.com/
       - name: Install Dependencies
         run: yarn --immutable
       - name: Configure Git
@@ -43,3 +42,10 @@ jobs:
           yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish to Github
+        run: |
+          yarn config set npmAuthToken ${NODE_AUTH_TOKEN}
+          yarn config set npmPublishRegistry "https://npm.pkg.github.com"
+          yarn npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
