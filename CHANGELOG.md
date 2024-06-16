@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.2.2](https://github.com/favware/skip-dependency/compare/v1.2.1...v1.2.2) - (2024-06-16)
+
+## 📝 Documentation
+
+- **readme:** Simplify syntax ([99634de](https://github.com/favware/skip-dependency/commit/99634de9852feb974666ea4ca62a3ca2527706b0))
+
 # [1.2.1](https://github.com/favware/skip-dependency/compare/v1.2.0...@1.2.1) - (2022-08-30)
 
 ## 🐛 Bug Fixes
